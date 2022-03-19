@@ -3,14 +3,15 @@ plugins {
     id 'kotlin-android'
 }
 
+// 정상적으로 실행 확인 (targetSdkVersion: 31 -> 30)
 android {
-    compileSdkVersion 32
-    buildToolsVersion "32.0.0"
+    compileSdkVersion 31
+    buildToolsVersion '30.0.3'
 
     defaultConfig {
         applicationId "com.preferkim.bts"
         minSdkVersion 16
-        targetSdkVersion 32
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
