@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
             // 2. 화면이 클릭되면, 다음 화면으로 넘어가서, 사진을 크게 보여줌! (메인 액티비티에서 서브 액티비티 실행)
             val intent = Intent(this, BTS1Activity::class.java) // 다음화면으로 이동하기 위한 인텐트 객체 생성
             startActivity(intent)
-<<<<<<< HEAD
         }
 
         // 남은 6개의 image들의 id를붙이고, 각각 클릭시, 각각의 액티비티로 이동!
@@ -73,8 +72,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, BTS2Activity::class.java)
             startActivity(intent)
         }
-=======
-        }
->>>>>>> be3b7ef09aa8ab68327adb67dca6800b4395fc07
     }
 }
