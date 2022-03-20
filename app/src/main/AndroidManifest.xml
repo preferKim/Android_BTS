@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BTS">
-        <activity android:name=".BTS1Activity"></activity>
+        <activity android:name=".BTS7Activity"></activity>
+        <activity android:name=".BTS6Activity" />
+        <activity android:name=".BTS5Activity" />
+        <activity android:name=".BTS4Activity" />
+        <activity android:name=".BTS3Activity" />
+        <activity android:name=".BTS2Activity" />
+        <activity android:name=".BTS1Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

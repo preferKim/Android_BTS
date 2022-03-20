@@ -1,54 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical"> <!-- 세로로 정렬 -->
+    android:orientation="vertical"
+    tools:context=".MainActivity"> <!-- 세로로 정렬 -->
 
-<!--   첫 번째 줄 -->
+    <!--   첫 번째 줄 -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="120dp">
 
         <ImageView
             android:id="@+id/btsImage_1"
-            android:src="@drawable/bts_1"
             android:layout_width="120dp"
-            android:layout_height="120dp"/>
+            android:layout_height="120dp"
+            android:src="@drawable/bts_1" />
+
         <ImageView
             android:id="@+id/btsImage_2"
-            android:src="@drawable/bts_2"
             android:layout_width="120dp"
-            android:layout_height="120dp"/>
+            android:layout_height="120dp"
+            android:src="@drawable/bts_2" />
+
         <ImageView
             android:id="@+id/btsImage_3"
-            android:src="@drawable/bts_3"
             android:layout_width="120dp"
-            android:layout_height="120dp"/>
+            android:layout_height="120dp"
+            android:src="@drawable/bts_3" />
 
     </LinearLayout>
 
-<!--    두 번째 줄 -->
+    <!--    두 번째 줄 -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="120dp">
 
         <ImageView
-            android:src="@drawable/bts_4"
+            android:id="@+id/btsImage_4"
             android:layout_width="120dp"
-            android:layout_height="120dp"/>
+            android:layout_height="120dp"
+            android:src="@drawable/bts_4" />
+
         <ImageView
-            android:src="@drawable/bts_5"
+            android:id="@+id/btsImage_5"
             android:layout_width="120dp"
-            android:layout_height="120dp"/>
+            android:layout_height="120dp"
+            android:src="@drawable/bts_5" />
+
         <ImageView
-            android:src="@drawable/bts_6"
+            android:id="@+id/btsImage_6"
             android:layout_width="120dp"
-            android:layout_height="120dp"/>
+            android:layout_height="120dp"
+            android:src="@drawable/bts_6" />
 
     </LinearLayout>
 
@@ -57,9 +63,10 @@
         android:layout_height="120dp">
 
         <ImageView
-            android:src="@drawable/bts_7"
+            android:id="@+id/btsImage_7"
             android:layout_width="120dp"
-            android:layout_height="120dp"/>
+            android:layout_height="120dp"
+            android:src="@drawable/bts_7" />
 
     </LinearLayout>
 
